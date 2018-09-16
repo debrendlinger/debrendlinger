@@ -1,0 +1,123 @@
+﻿
+
+vidbr.com
+
+
+
+https://github.com/debrendlinger/debrendlinger
+
+https://github.com/debrendlinger/debrendlinger.git
+
+…or create a new repository on the command line
+echo "# debrendlinger" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/debrendlinger/debrendlinger.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/debrendlinger/debrendlinger.git
+git push -u origin master
+
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+https://www.youtube.com/watch?v=7Id1_VfbEKo
+packages preferences, intall git software 5.9.. git-plus package  
+
+and when pigs fly 
+
+Nikki911F@davidbr.com
+echo "# debrendlinger" >> README.md
+
+
+git commit -m "first commit"
+git push -u origin master
+
+I now have web51, dns52, ansible53 and database54
+
+Setup ansible :
+
+mkdir /opt/ansible
+
+ansiblegalixy init 
+
+
+https://galaxy.ansible.com/docs/contributing/creating_role.html
+
+ansible-galaxy init test-role-1
+
+ansible ping command needs ssh to ping !!
+
+dbserver.local
+webserver.local
+
+ansible all -m ping
+
+
+ansible dbserver.local  -m ping
+
+
+[webservers]
+webserver.local
+
+[dbservers]
+dbserver.local
+
+
+ansible all  -m ping
+
+ansible all:!dbservers  -m ping
+
+ansible webservers:dbservers  -m ping
+
+
+how do I distibute keys without a password in bash. 
+As me. 
+
+
+ssh-copy-id 
+
+Take a look at sshpass. Place your password in a text file and do something like this:
+sshpass -f password.txt ssh-copy-id user@yourserver
+
+sshpass -f ./password.txt ssh-copy-id dbrendlinger@192.168.5.55
+
+sshpass -f ./password.txt ssh-copy-id root@192.168.5.55
+
+
+
+sshpass -p 'Nikki911'  ssh-copy-id -i 192.168.5.56
+ 
+man useradd 
+
+useradd -D  --comment   davidbr 
+
+useradd -c "curly is here"  curly
+usermod -aG wheel curly
+
+
+
+yada
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
