@@ -1,0 +1,25 @@
+vidbr.com
+
+https://github.com/debrendlinger/debrendlinger
+
+https://github.com/debrendlinger/debrendlinger.git
+
+…or create a new repository on the command line
+echo "# debrendlinger" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/debrendlinger/debrendlinger.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/debrendlinger/debrendlinger.git
+git push -u origin master
+
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+https://www.youtube.com/watch?v=7Id1_VfbEKo
+packages preferences, intall git software 5.9.. git-plus package  
+
+
